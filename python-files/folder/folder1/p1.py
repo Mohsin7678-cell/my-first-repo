@@ -58,7 +58,17 @@ for num in range(1000,3001):
       print(num)                                                          
         
           
-
+### wap to diaplay the sum of the numbers given by user until explicitly say stop
+add = 0
+while True:
+  num = int(input("enter number"))
+  add = add+num
+  choice = input("would you like to add more numbers\nif yes then press y and if no then press any key")
+  if choice == "y":
+    continue
+  else:
+    break
+print("sum of numbers is",add)
 
 
     
