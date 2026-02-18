@@ -1,0 +1,13 @@
+# distance = int(input("enter distance"))
+# if distance > 200:
+#     print("i will read")
+# print("hello guys")
+# print("hello india")
+age = int(input("enter age:"))
+if age > 18:
+    print("he/she can drive")
+    print("he/she is mature")
+else:
+    print("he/she can't drive")
+    
+print("hii")

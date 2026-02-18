@@ -1,0 +1,5 @@
+# print("/n")
+print("\n\n\n")
+# print("\\n")
+# print("nice    boy")
+# print("nice\tboy")

@@ -1,0 +1,6 @@
+a = ("ab","lk","1234")
+print("ab" in a)
+print("s" in a)
+print("k" in a)
+print("12" in a)
+print("1234" in a)
