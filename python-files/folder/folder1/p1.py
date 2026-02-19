@@ -71,4 +71,15 @@ while True:
 print("sum of numbers is",add)
 
 
-    
+num = int(input("Enter a number: "))
+
+num = abs(num)   # handle negative numbers
+
+if num < 10:
+    print("One digit number")
+elif num < 100:
+    print("Two digit number")
+elif num < 1000:
+    print("Three digit number")
+else:
+    print("More than three digits")
